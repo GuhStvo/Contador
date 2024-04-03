@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+button {
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+button:target {
+    background-color: #aaa;
+}
